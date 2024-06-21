@@ -33,3 +33,6 @@
 
 .idea
 *build*
+.vscode/c_cpp_properties.json
+.vscode/settings.json
+pycpp/__pycache__/IHelperSinkImpl.cpython-312.pyc

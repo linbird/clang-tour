@@ -1,0 +1,1 @@
+22 serialization::archive 20 0 0 8 John Doe 30 1.75500000000000000e+02 0 0 11 123 Main St 7 Anytown 2 CA 5 12345 0 0 0 3 0 7 Reading 6 Hiking 7 Cooking 0 0 3 0 0 0 7 English 85 7 History 88 4 Math 90

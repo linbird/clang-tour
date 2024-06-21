@@ -1,11 +1,14 @@
 cmake_minimum_required(VERSION 3.20)
 project(clang-tutor-hello-world)
 
+set (Clang_DIR "/opt/homebrew/Cellar/llvm/18.1.7/")
+set (CLANG_TUTOR_DIR "/Users/JovyZhang/SourceCode/clang-tutor")
+
 #===============================================================================
 # 1. LOAD Clang CONFIGURATION
 #===============================================================================
 # Set this to a valid LLVM installation dir
-set(CT_Clang_INSTALL_DIR "" CACHE PATH "Clang installation directory")
+set(CT_Clang_INSTALL_DIR ${Clang_DIR} CACHE PATH "Clang installation directory")
 
 # Add the location of ClangConfig.cmake to CMake search paths (so that
 # find_package can locate it)
